@@ -9,7 +9,36 @@ import Footer from './Footer';
 function Home() {
     return(
         <div id="home">
-            <Navigation/>        
+            <Navigation/>
+            <Header/>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>        
+
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+            <h1>UN texto</h1>
+
         </div>
     )
 }
