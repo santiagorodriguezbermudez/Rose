@@ -11,6 +11,7 @@ function Home() {
         <div id="home">
             <Navigation/>
             <Header/>
+            <Services />
             <h1>UN texto</h1>
             <h1>UN texto</h1>        
 

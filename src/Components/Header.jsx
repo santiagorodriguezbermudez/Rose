@@ -51,9 +51,9 @@ function Header() {
                 
                 <Grid item className={classes.txtContainer} xs={12} sm={12} md={6} container justify="center" direction="column" >
                     
-                    <Grid item sm={12}><h1>Hire globally; Rose will comply locally so you can sleep peacefully at night</h1></Grid>
-                    <Grid item sm={12}><h3>Rose combines legal structure with technology to support your global workforce. <strong>All in the cloud.</strong></h3></Grid>
-                    <Grid item sm={12}><Button variant="contained" className={classes.button} color="primary" size="large">Schedule a Demo</Button></Grid>
+                    <Grid item><h1>Hire globally; Rose will comply locally so you can sleep peacefully at night</h1></Grid>
+                    <Grid item><h3>Rose combines legal structure with technology to support your global workforce. <strong>All in the cloud.</strong></h3></Grid>
+                    <Grid item><Button variant="contained" className={classes.button} color="primary" size="large">Schedule a Demo</Button></Grid>
                     
                 </Grid>
 
