@@ -39,7 +39,8 @@ function Services(props) {
             padding: "2rem",
             textAlign: "center",
             width: "16rem",
-            height: "12rem"
+            height: "12rem",
+            margin: "1rem auto"
         },
         img: {
             width: "5rem",
@@ -52,8 +53,8 @@ function Services(props) {
 
     function serviceLayout(card, key) {
         return (
-            <Grid item md={4} sm={12} key={key}>
-                <Paper elevation={4} className={classes.card}>
+            <Grid item md={3} sm={12} key={key}>
+                <Paper elevation={5} className={classes.card}>
                     
                     <img className={classes.img} src={card.icon} alt="service-logo"/>
                     {card.content}
@@ -66,7 +67,7 @@ function Services(props) {
 
     return (
         <div className={classes.root}>
-            <Grid container wrap="nowrap" alignItems="center" justify="center">
+            <Grid container alignItems="center" justify="space-around" >
                 {servicesArray.map((member, index) => serviceLayout(member, index))}
 
             </Grid>
