@@ -1,4 +1,5 @@
 import React from 'react';
+import CssBaseline from '@material-ui/core/CssBaseline';
 import {
     BrowserRouter as Router,
     Switch,
@@ -18,6 +19,7 @@ function App() {
               <Form env={env}/>
             </Route> */}
             <Route path="/">
+              <CssBaseline />
               <Home />
             </Route>
           </Switch>
